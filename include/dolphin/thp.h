@@ -147,6 +147,8 @@ static void __THPInverseDCTY8(THPCoeff* in, u32 xPos);
 static void __THPGQRSetup();
 static s32 __THPHuffDecodeTab(THPFileInfo* info, THPHuffmanTab* h);
 
+BOOL THPInit(void);
+
 #ifdef __cplusplus
 }
 #endif
