@@ -142,6 +142,7 @@ void PADControlMotor(u32 chan, u32 cmd);
 void PADSetSpec(u32 spec);
 void PADControlAllMotors(const u32* cmdArr);
 void PADSetAnalogMode(u32 mode);
+void PADSetSamplingRate(u32 rate);
 
 #ifdef TARGET_PC
 #define PAD_KEY_INVALID (-1)
